@@ -123,7 +123,7 @@ MAIN CONTENT
 						<div class="form-group">
 							<label class="col-sm-2 col-sm-2 control-label">Database Name</label>
 							<div class="col-sm-10">
-								<input type="text" class="form-control" name="settings_path" value="http://localhost/sqlilabs/" />
+								<input type="text" class="form-control" name="settings_path" placeholder="http://localhost/sqlilabs/" />
 								<span class="help-block">Enter the path where you have installed the application. Please always put a slash at the end.</span>
 							</div>
 						</div>
