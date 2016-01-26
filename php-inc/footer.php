@@ -21,6 +21,27 @@
 
     <!--common script for all pages-->
     <script src="<?php echo WEBROOT; ?>assets/js/common-scripts.js"></script>
+
+    <?php 
+    	if($menu_main == 'setup' && $menu_sub == 'createdb') {
+    ?>
+    <script type="text/javascript" charset="utf-8">
+	    $(document).ready(function(){
+	      $("#create-db").click(function(e){
+	        e.preventDefault();
+			$.ajax({type: "POST",
+			        url: "<?php echo WEBROOT; ?>sql-connections/dbcreate.php",
+			        success:function(result){
+			        			$("div#sql-msg-section").css('visibility', 'visible');
+			  					$("div#sql-msg").html(result);
+			  		}
+			});
+	      });
+	    });
+    </script>
+    <?php
+    	}	 
+    ?>
     
   </body>
 </html>
