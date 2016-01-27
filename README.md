@@ -7,7 +7,7 @@ You can download the project from Github - [**https://github.com/himadriganguly/
 ## Requirements
 
 1. Web Server (e.g Apache)
-2. PHP
+2. PHP 5 OR Greater
 3. MySQL
 
 ## Installation

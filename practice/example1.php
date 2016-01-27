@@ -33,7 +33,7 @@
 									include_once("../sql-connections/sql-connect.php");
 									
 									error_reporting(0);
-									
+
 									// take the variables 
 									if(isset($_GET['id']))
 									{
@@ -41,10 +41,9 @@
 										
 																			
 										// connectivity 								
-										$sql="SELECT * FROM users WHERE id='$id' LIMIT 0,1";
-										$result=mysql_query($sql);
-										$row = mysql_fetch_array($result);
-										
+										$query="SELECT * FROM users WHERE id='$id' LIMIT 0,1";
+										$result=$mysqli->query($query);
+										$row = $result->fetch_array(MYSQLI_ASSOC);
 										
 										if($row)
 										{							 
@@ -52,10 +51,15 @@
 										  	echo "<br><br>";
 										  	echo '<b><span class="custom-color-magento">Your Password:</span></b> ' .$row['password'];
 									  	}
-										else 
-										{											
-											print_r(mysql_error());
+										elseif($result->num_rows == 0) 
+										{																				
+											echo "Wrong Input!";
 										}
+										/* free result set */
+										$result->free();
+										
+										/* close connection */
+										$mysqli->close();
 									}
 									else { echo "Please input the ID as parameter with numeric value";}									
                   				?>
