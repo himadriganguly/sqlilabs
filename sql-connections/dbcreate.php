@@ -3,7 +3,7 @@
 //including the Mysql connect parameters.
 include_once ("db-creds.inc");
 
-$mysqli = new mysqli($host,$db_username,$db_password,$dbname);
+$mysqli = new mysqli($host,$db_username,$db_password);
 if ($mysqli->connect_errno) {
 	echo die('[*]...................Could not connect to DB, check the creds in db-creds.inc: ' . $mysqli->connect_error);
 	exit();
