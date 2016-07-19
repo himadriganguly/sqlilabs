@@ -24,7 +24,7 @@
                   				<p class="box-welcome-text">Please do don't use SQL Injection Techniques anywhere where you don't have legal permission.<br/>If you do this you will definitely get caught and have to face the consequesces.</p>
                   				<h2>Steps To Setup The Practice Labs</h2>
                   				<ol class="box-welcome-text">
-                  					<li>Click on the Steup > Configuration</li>
+                  					<li>Click on the Setup > Configuration</li>
                   					<li>Set the Database connection details and the Web Root path and create the files</li>
                   					<li>Then Click on Create/Restore Database and click on Create/Restore Database button to create the database</li>
                   					<li>Now you can start experimenting with the Examples</li>
