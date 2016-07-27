@@ -22,7 +22,7 @@ MAIN CONTENT
 				if (file_exists($dbcreds_path) && !isset($_POST['db_name']) && !isset($_POST['db_username'])) {
 				?>
 				<div class="alert alert-danger">
-					<b>Wait!</b> Your Configuration file is already present. Please check out the file at <b><?php echo dirname(__FILE__) . "sql-credentials". DIRECTORY_SEPARATOR ?>db-creds.inc</b>
+					<b>Wait!</b> Your Configuration file is already present. Please check out the file at <b><?php echo dirname(__FILE__) . "/sql-connections". DIRECTORY_SEPARATOR ?>db-creds.inc</b>
 				</div>
 				<?php
 				}

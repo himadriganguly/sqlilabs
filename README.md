@@ -14,11 +14,12 @@ You can download the project from Github - [**https://github.com/himadriganguly/
 
 1. Download the zipfile of the application and extract
 2. Move the files to Web server folder
-3. Open Browser the and the type the URL where the files are located (e.g http://localhost/sqlilabs)
-4. Then click on the Steup > Configuration
-5. Set the Database connection details and the Web Root path and create the files
-6. Then Click on Create/Restore Database and click on Create/Restore Database button to create the database
-7. Now you can start experimenting with the Examples
+3. Edit pre-defined `WEBROOT` variable in `php-inc/settings.php` to the URL of sqlilabs directory
+4. Open Browser the and the type the URL where the files are located (e.g http://localhost/sqlilabs)
+5. Then click on the Setup > Configuration
+6. Set the Database connection details and the Web Root path and create the files
+7. Then Click on Create/Restore Database and click on Create/Restore Database button to create the database
+8. Now you can start experimenting with the Examples
 
 ## CONTRIBUTE
 
