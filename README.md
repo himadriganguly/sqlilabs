@@ -1,13 +1,14 @@
 # SQL Injection Labs
 
-This project is developed for the pentester who are learning SQL Injection, so that they can get a playground to apply their different wired concepts. Please don't use your SQL Injection skills anywhere where you don't have legal permission. Applying it on Live Websites is illegal and if you do so you have to face legal consequences.
+This project is developed for the pentester who are learning SQL Injection, so that they can get a playground to apply their different wired concepts. Please don't use your SQL Injection skills anywhere where you don't have legal permission. **Applying it on Live Websites is illegal and if you do so you have to face legal consequences.**
 
-You can download the project from Github - [**https://github.com/himadriganguly/sqlilabs**] (https://github.com/himadriganguly/sqlilabs)
+[//]: # ( Web address can be found at the end of the file )
+You can [**download**][download link] the project from Github 
 
 ## Requirements
 
-1. Web Server (e.g Apache)
-2. PHP 5 OR Greater
+1. Web Server (e.g. Apache)
+2. PHP 5 or greater
 3. MySQL
 
 ## Installation
@@ -25,3 +26,4 @@ You can download the project from Github - [**https://github.com/himadriganguly/
 
 If have any idea you want to implement or think that there is a better way to implement any part please create a pull request and I will do my best to merge appropriately and include your name in the about section.
 
+[download link]: https://github.com/himadriganguly/sqlilabs
